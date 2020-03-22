@@ -5,3 +5,6 @@ Add authorization for users with different roles (use at least two roles - ROLE_
 Project should contain pages with restricted access (“only for admins” and “only for users”).
 If you don’t have such segregation in your project right now - add some new pages and restrict access to them.
 In your SecurityConfiguration use jdbc as a datasource for users and roles.
+
+
+Also fixed bugs found by the mentor in hw-22 ("final" modifier in Constructor Injection, interface hierarchy, constants naming)

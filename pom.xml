@@ -7,7 +7,6 @@
     <groupId>ua.epam</groupId>
     <artifactId>springSecurity</artifactId>
     <version>1.0.0</version>
-    <packaging>war</packaging>
 
     <properties>
         <java.version>1.8</java.version>
@@ -25,8 +24,6 @@
     </properties>
 
     <build>
-
-        <finalName>springSecurity</finalName>
 
         <plugins>
             <plugin>

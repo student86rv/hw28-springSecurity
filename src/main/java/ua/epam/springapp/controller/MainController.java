@@ -12,13 +12,12 @@ public class MainController {
         return new ModelAndView("index");
     }
 
-
-    @GetMapping("/admin**")
+    @GetMapping("/admin")
     public ModelAndView getAdminPage() {
         return new ModelAndView("admin");
     }
 
-    @GetMapping("/user**")
+    @GetMapping("/user")
     public ModelAndView getUserPage() {
         return new ModelAndView("user");
     }
